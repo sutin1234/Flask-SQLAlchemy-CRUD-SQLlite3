@@ -1,0 +1,11 @@
+<html>
+  <body>
+   <h1>Update Books</h1>
+    <form method="POST" action="/book/edit/{{book.title}}">
+     <input type="hidden" value="{{book.title}}" name="oldtitle">
+    <input type="text" value="{{book.title}}" name="newtitle">
+    <input type="submit" value="Update">
+    </form>
+    
+  </body>
+</html>
